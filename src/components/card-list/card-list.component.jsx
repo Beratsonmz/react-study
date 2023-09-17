@@ -1,8 +1,7 @@
-import { Component } from "react";
+import { Component } from 'react';
 
 class CardList extends Component {
   render() {
-    console.log('cardlist render')
     const { monsters } = this.props;
     return (
       <div>
